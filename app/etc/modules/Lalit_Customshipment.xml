@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lalit_Customshipment>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lalit_Customshipment>
+        <depends>
+            <Mage_Shipping />
+        </depends>
+    </modules>
+</config>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lalit_customshipment>
+            <version>1.0</version>
+        </Lalit_customshipment>
+    </modules>
+    <global>
+        <models>
+            <lalit_customshipment>
+                <class>Lalit_Customshipment_Model</class>
+            </lalit_customshipment>
+        </models>
+        <helpers>
+            <lalit_customshipment>
+                <class>Lalit_Customshipment_Helper</class>
+            </lalit_customshipment>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <lalit_customshipment>
+                <active>1</active>
+                <sallowspecific>1</sallowspecific>
+                <model>lalit_customshipment/Main</model>
+                <name>Demo Shipping Method One</name>
+                <price>10.00</price>
+                <title>Demo Shipping Method</title>
+            </lalit_customshipment>
+        </carriers>
+    </default>
+</config>
